@@ -30,5 +30,12 @@ Add Admin and customer in Areas
 
 Commit this project to the github
 
+
+Starting part 2 
+
+1158- 03/27/2022 
+		Migration statring 
 		
+0100	Migration completed 
+
  
