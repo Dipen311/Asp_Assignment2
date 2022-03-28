@@ -31,11 +31,26 @@ Add Admin and customer in Areas
 Commit this project to the github
 
 
-Starting part 2 
+|-----------------------|
+|-----------------------|
+|						|
+|	    part 2	     	|
+|						|
+|-----------------------|
+|-----------------------|
 
 1158- 03/27/2022 
 		Migration statring 
 		
 0100	Migration completed 
+
+0113   Category update task completed and push the changes to the github
+	   also update the database
+
+
+0200 Stating part 2 
+		Adding Repository and iRepository 
+		added IRepository.cs class in IRepository folder
+
 
  
