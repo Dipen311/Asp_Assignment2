@@ -70,3 +70,5 @@ Commit this project to the github
 			Add in dropdown manu in layout file
 
 1200 all part completed but still getting error of ajax.
+
+Solve ajax error and complete the project 
