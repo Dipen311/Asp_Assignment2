@@ -62,3 +62,10 @@ Commit this project to the github
 
 0800  03/29/2022
 		Part 2.3 is started 
+
+0830 
+		Complete the part of adding CategoryController in Area/Admin folder 
+		Add view in admin folder Index.cshtml file 
+			Edit the file code for Category 
+			Add in dropdown manu in layout file
+
