@@ -51,6 +51,14 @@ Commit this project to the github
 0200 Stating part 2 
 		Adding Repository and iRepository 
 		added IRepository.cs class in IRepository folder
+		Adding class files Repository.cs in Repository
 
+0500  03/28/2022
+		Adding class files ISP_Call.cs in IRepository
+		Adding class files SP_Call.cs in Repository 
 
- 
+0600  03/29/2022
+		Part  2.2 is completed
+
+0800  03/29/2022
+		Part 2.3 is started 
