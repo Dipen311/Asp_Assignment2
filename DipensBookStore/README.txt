@@ -41,7 +41,7 @@ Commit this project to the github
 
 1158- 03/27/2022 
 		Migration statring 
-		
+		20220328050950 migration time
 0100	Migration completed 
 
 0113   Category update task completed and push the changes to the github
@@ -72,3 +72,12 @@ Commit this project to the github
 1200 all part completed but still getting error of ajax.
 
 Solve ajax error and complete the project 
+
+
+|-----------------------|
+|-----------------------|			|
+|	    part 3			|
+|-----------------------|
+|-----------------------|
+
+0800  04/04/2022 started part 3 of Assignment 
