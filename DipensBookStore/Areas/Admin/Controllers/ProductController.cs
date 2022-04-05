@@ -28,8 +28,53 @@ namespace DipensBookStore.Areas.Admin.Controllers
         {
             return View();
         }
+        public IActionResult Upsert(int? id)
+        {
+            ProductVM productVM = new ProductVM()
+            {
+                Product = new Product(),
+                CategoryList = _unitOfWork.Category.GetAll().Select(i => new SelectListItem
+                {
+                    Text = i.Name,
+                    Value = i.Id.ToString()
+                }),
+                CoverTypeList = _unitOfWork.CoverType.GetAll().Select(i => new SelectListItem
+                {
+                    Text = i.Name,
+                    Value = i.Id.ToString()
+                }),
+            };
+            if (id == null)
+            {
+                return View(productVM);
+            }
+            productVM.Product = _unitOfWork.Product.Get(id.GetValueOrDefault());
+            if (productVM.Product == null)
+            {
+                return NotFound();
+            }
+            return View(productVM);
+        }
 
-        
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Upsert(Product product)
+        {
+            if(ModelState.IsValid)
+            {
+                if (product.Id == 0)
+                {
+                    _unitOfWork.Product.Add(product);
+                }
+                else
+                {
+                    _unitOfWork.Product.Update(product);
+                }
+                _unitOfWork.Save();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(product);
+        }
 
         #region API CALLS
 
@@ -47,12 +92,6 @@ namespace DipensBookStore.Areas.Admin.Controllers
             if (objFromDb == null)
             {
                 return Json(new { success = false, message = "Error while deleting" });
-            }
-            string webRootPath = _hostEnvironment.WebRootPath;
-            var imagePath = Path.Combine(webRootPath, objFromDb.ImageUrl.TrimStart('\\'));
-            if (System.IO.File.Exists(imagePath))
-            {
-                System.IO.File.Delete(imagePath);
             }
             _unitOfWork.Product.Remove(id);
             _unitOfWork.Save();
