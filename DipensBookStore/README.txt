@@ -92,3 +92,9 @@ Time : 20220405002558_AddCoverTypeToDb
 Added functionality on Cover type 
 2042	Push to github 
 
+
+2145	Adding Product model
+		Add migration to db AddProductToDb
+Migration time: 20220405015450_AddProductToDb
+
+1212	Complete the product 
