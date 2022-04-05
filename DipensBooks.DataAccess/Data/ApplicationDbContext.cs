@@ -14,5 +14,6 @@ namespace DipensBookStore.DataAccess.Data
         {
         }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<CoverType> CoverTypes { get; set; }
     }
 }

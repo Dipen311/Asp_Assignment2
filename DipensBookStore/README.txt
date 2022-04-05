@@ -80,4 +80,15 @@ Solve ajax error and complete the project
 |-----------------------|
 |-----------------------|
 
-0800  04/04/2022 started part 3 of Assignment 
+1800  04/04/2022 started part 3 of Assignment 
+	Starting section 1 
+	Create a model CoverType.cs 
+
+	Added CoverType to Repository
+
+	Added Migration Covertype 
+Time : 20220405002558_AddCoverTypeToDb
+
+Added functionality on Cover type 
+2042	Push to github 
+
