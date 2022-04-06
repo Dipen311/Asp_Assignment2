@@ -98,6 +98,7 @@ Time : 20220405002558_AddCoverTypeToDb
 2042	Push to github 
 
 
+04/05/2022
 		Starting section 2 
 2145	Adding Product model
 			Product.cs
