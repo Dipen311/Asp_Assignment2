@@ -88,6 +88,7 @@ Solve ajax error and complete the project
 
 	Added Migration Covertype 
 Time : 20220405002558_AddCoverTypeToDb
+		Adding javascript file CoverType.js file in js folder
 
 Added functionality on Cover type 
 2042	Push to github 
