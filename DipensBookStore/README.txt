@@ -81,21 +81,36 @@ Solve ajax error and complete the project
 |-----------------------|
 
 1800  04/04/2022 started part 3 of Assignment 
-	Starting section 1 
-	Create a model CoverType.cs 
-
-	Added CoverType to Repository
-
+	Starting section 1
+	
+	Create a model CoverType.cs
+	Added CoverType to Repository and IRepository
+	Adding controller of CoverType.cs
+			CoverTypeController.cs
+		Adding view of Product folder 
+			index.cshtml
+			upsert.cshtm
 	Added Migration Covertype 
 Time : 20220405002558_AddCoverTypeToDb
 		Adding javascript file CoverType.js file in js folder
 
-Added functionality on Cover type 
+	Added functionality in CoverType  
 2042	Push to github 
 
 
+		Starting section 2 
 2145	Adding Product model
+			Product.cs
+		Adding controller of product 
+			ProductController.cs
+		Added Product to Repository and IRepository
+		Adding view of Product folder 
+2300		index.cshtml
+			upsert.cshtm
 		Add migration to db AddProductToDb
 Migration time: 20220405015450_AddProductToDb
 
+		Adding product.js file in js folder 
+
 1212	Complete the product 
+		push to github
