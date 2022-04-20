@@ -10,7 +10,6 @@ namespace DipensBooks.Models.ViewModels
     {
         public Product Product { get; set; }
         public IEnumerable<SelectListItem> CategoryList { get; set; }
-
         public IEnumerable<SelectListItem> CoverTypeList { get; set; }
     }
 }
