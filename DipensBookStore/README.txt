@@ -124,3 +124,9 @@ Migration time: 20220405015450_AddProductToDb
 |-----------------------|
 
 10:26 19/04/2022 starting part 4
+
+12:00	error solved for loading product entry page
+	
+20 minute takes
+
+01:00	Starting Analysing Github link provided https://github.com/Rico-Jose/BulkyBook 9:39AM Modified ProductController.cs
