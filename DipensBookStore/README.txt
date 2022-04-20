@@ -142,5 +142,6 @@ Migration time: 20220405015450_AddProductToDb
 40 minute takes
 		
 Break
-		View update and try to solve error.
+		View update and	try to solve error.
+	Completed part 4 
 Total time spent on part 4 is about 120 minute 
