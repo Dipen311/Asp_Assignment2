@@ -130,3 +130,17 @@ Migration time: 20220405015450_AddProductToDb
 20 minute takes
 
 01:00	Starting Analysing Github link provided https://github.com/Rico-Jose/BulkyBook 9:39AM Modified ProductController.cs
+	
+		Product.cs Model updated 
+		ProductRepository.cs modified new criteria added in update method
+		SD.cs Class update
+		Product upsert view updated
+		HomeController updated in Customers area
+		Views for customer area updated
+		Datbase error need to update database
+
+40 minute takes
+		
+Break
+		View update and try to solve error.
+Total time spent on part 4 is about 120 minute 
